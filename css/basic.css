@@ -372,3 +372,97 @@ img
     transform: perspective(600px) rotateY(0deg);
 }
 
+/*Staff*/
+.employees{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card2 {
+  width: 350px;
+  background-color: #efefef;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.image2{
+  padding-top: 10px;
+}
+
+.image2 img {
+  transition: all 0.5s
+}
+
+.card2:hover .image2 img {
+  transform: scale(1.2)
+}
+
+.btn2 {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold
+}
+
+.idd {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.idd1 {
+  font-size: 12px
+}
+
+.number {
+  font-size: 22px;
+  font-weight: bold
+}
+
+.follow {
+  font-size: 12px;
+  font-weight: 500;
+  color: #444444
+}
+
+.btn1 {
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: #000;
+  color: #aeaeae;
+  font-size: 15px
+}
+
+.text span {
+  font-size: 13px;
+  color: #545454;
+  font-weight: 500
+}
+
+.icons i {
+  font-size: 19px
+}
+
+hr .new1 {
+  border: 1px solid
+}
+
+.join {
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: bold
+}
+
+.date {
+  background-color: #ccc;
+  margin-bottom: 15px;
+}
