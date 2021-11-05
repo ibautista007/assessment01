@@ -8,68 +8,58 @@
     <meta name="author" content="Sojara"> 
     <title>Assessment01_Contact</title>
 
-    <!-- Bootstrap 4.5 core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/basic.css?2" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- RECATCHA-->
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lf-uawZAAAAAFp-tBZXZrGPuR71eACJ80H7YSBs"></script>
-
-    <script>
-      grecaptcha.ready(function () {
-          grecaptcha.execute('6Lf-uawZAAAAAFp-tBZXZrGPuR71eACJ80H7YSBs', { action: 'contact' }).then(function (token) {
-              var recaptchaResponse = document.getElementById('recaptchaResponse');
-              recaptchaResponse.value = token;
-          });
-      });
-  </script>
+     <!-- Bootstrap core CSS -->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/basic.css?6" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ 
+         <!-- Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
   <body>
-    <!-- Header section - Nav Bar-->
 
-
-    
-<nav class="navbar navbar-expand-md navbar fixed-top bg-white">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div id="log">
-        <a class="navbar-brand" href="index.html">
-          <img class="visible-lg" src="img/tour.png" id="logo" />
-        </a>    
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon">   
-            <i class="fa fa-navicon"></i>
-        </span>
-        </button>
+      <!-- Header section - Nav Bar-->    
+  <nav class="navbar navbar-expand-md navbar fixed-top bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="log">
+          <a class="navbar-brand" href="index.html">
+            <img class="visible-lg" src="img/tour.png" id="logo" />
+          </a>    
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon">   
+              <i class="fa fa-navicon"></i>
+          </span>
+          </button>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-            <a class="nav-link" href="index.html" style="color: black;">Home<span class="sr-only">(current)</span></a>
-        </li>
+        <div class="col-md-6">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+              <a class="nav-link" href="index.html" style="color: black;">Home</a>
+          </li>
 
-        <li class="nav-item active">
-          <a class="nav-link" href="about_us.html" style="color: black;">About Us</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="btn btn-success" href="#" style="color: white;">Contact Us</a>
-        </li>
-      </ul>      
+          <li class="nav-item active">
+            <a class="nav-link" href="about_us.html" style="color: black;">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-success" href="contacts.html" >Contact Us</a>
+          </li>
+              </ul>
+      </div>
+      </div>
     </div>
     </div>
-  </div>
-  </div>
-</nav>
-<!-- End Header section - Nav Bar-->
+  </nav>
+  <!-- End Header section - Nav Bar-->
 
 <!--Body section-->
 <div class="container content">
@@ -104,7 +94,7 @@
           <div class="form-group row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Message*:</label>
             <div class="col-sm-10">
-              <textarea class="form-control" name="text" placeholder="Message..." style="height:100px;" required></textarea><br />
+              <textarea class="form-control" name="text" placeholder="Tell us where do you want to go..." style="height:100px;" required></textarea><br />
             </div>
           </div>
         
@@ -126,33 +116,30 @@
       </div>
       <div class="col-md-4">
         </br>
-        <h4 class="text-center">Office Address:  </h4>
+        <h4 class="text-center">Our Office Address:  </h4>
         </br>
         <di>
           <h5>Canada</h5>
-          <p><i class="fa fa-building-o"></i>&nbsp;&nbsp;&nbsp;215-2030 Marine Drive, North Vancouver, 
-            British Columbia, Canada
-            V7P 1V7
+          <p><i class="fa fa-building-o"></i>&nbsp;&nbsp;7434 Kingsway, Burnaby, BC, Canada <br>
+            V3N 3B7
           </p>
           <p>
-            <i class="fa fa-phone-square" style="font-size:20px"></i><a href="tel:+1 778 7091 022"> +1 (778) 709 1022</a>
+            <i class="fa fa-phone-square" style="font-size:20px"></i><a href="tel:+1 778 318 3911"> +1 (778) 318 3911</a>
           </p>
           <p>
-            <i class="fa fa-envelope-o" style="font-size:20px"></i><a href="mailto:info@safifoods.ca"> info@safifoods.ca</a>
+            <i class="fa fa-envelope-o" style="font-size:20px"></i><a href="mailto:test@temporal.ca"> test@temporal.ca</a>
           </p>
       </di>
       </br>
         <div>
-          <h5>Turkey </h5>
-          <p><i class="fa fa-building-o"></i>&nbsp;&nbsp;&nbsp;Güllük Mahallesı, Baysal Sokak, 
-            Blok: 67, Daire: 2, Tepebaşı, 
-            Eskişehir, Turkey             
+          <h5>El Salvador </h5>
+          <p><i class="fa fa-building-o"></i>&nbsp;&nbsp;&nbsp;Colonia Costa Rica, Ave Alajuela #6
           </p>
           <p>
-            <i class="fa fa-phone-square" style="font-size:20px"></i><a href="tel:+90 555 018 60 15"> +90 555 018 60 15</a>
+            <i class="fa fa-phone-square" style="font-size:20px"></i><a href="#"> +503 ### #####</a>
           </p>
           <p>
-            <i class="fa fa-envelope-o" style="font-size:20px"></i><a href="mailto:info@safifoods.ca"> info@safifoods.ca</a>
+            <i class="fa fa-envelope-o" style="font-size:20px"></i><a href="mailto:test@temporal.ca"> test@temporal.ca</a>
           </p>
         </div>
       </div>

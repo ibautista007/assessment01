@@ -39,6 +39,7 @@ padding: 20px;
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+
   }
 
 body {
@@ -50,11 +51,19 @@ body {
       body {    
          min-height: 55rem;
         padding-top: 4.5rem; }
+        
 
       .content {
           padding-top: 8.5rem
-        }
-    }
+        }        
+}
+
+@media screen and (max-width: 770px) {
+  ul.navbar-nav {    
+  text-align: center !important; }
+}
+
+
 
 .content {
           padding-top: 5rem;
@@ -84,6 +93,7 @@ footer ul li a {
 .btn-success{
   background-color: #023d83 !important;
   border-color: #023d83 !important;
+  color: white !important;
 }
 
 .fa.fa-navicon {
@@ -109,6 +119,22 @@ footer ul li a {
 .frm_form_field .grecaptcha-badge { 
     display:none;
 }
+
+a.nav-link{
+
+    -webkit-transition: background-color 2s ease-out;
+      -moz-transition: background-color 2s ease-out;
+      -o-transition: background-color 2s ease-out;
+      transition: background-color 2s ease-out;
+
+}
+
+a.nav-link:hover{
+  border-bottom: 2px solid aquamarine;
+  color: #023d83;
+}
+
+
 
   
 /* Change color to carousel arrows */
