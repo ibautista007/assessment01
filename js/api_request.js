@@ -9,7 +9,7 @@ $(function(){
           console.log(data.results);
 
           $.each(data.results,function(i,user){
-                $users.append('<li>name:' + user.gender)
+                $users.append('<li>gender:' + user.gender)
           });
         }
       });
