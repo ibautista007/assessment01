@@ -5,9 +5,7 @@ html, body {
   margin: 0;
 }
 
-.bg-white {
-  background-color:black!important;
-}
+
 
 body  {
   background-image: url("/img/Slider_3.jpg");
@@ -63,7 +61,7 @@ body {
           }
   
 footer{
-    background-color: gray;
+    background-color: #467f46;
     color: white;    
   }   
   
@@ -84,8 +82,8 @@ footer ul li a {
  }
 
 .btn-success{
-  background-color: #b65114 !important;
-  border-color: #b65114 !important;
+  background-color: #023d83 !important;
+  border-color: #023d83 !important;
 }
 
 .fa.fa-navicon {
