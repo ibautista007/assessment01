@@ -7,7 +7,7 @@ html, body {
 
 
 
-body  {
+body.us  {
   background-image: url("/img/Slider_3.jpg");
   background-color: white;
   background-position: center center;
@@ -408,7 +408,7 @@ img
 
 .card2 {
   width: 350px;
-  background-color: #efefef;
+  background-color: rgba(245, 243, 243, 0.5);
   border: none;
   cursor: pointer;
   transition: all 0.5s;
@@ -484,11 +484,11 @@ hr .new1 {
 
 .join {
   font-size: 14px;
-  color: #a0a0a0;
+  color: #ffffff;
   font-weight: bold
 }
 
 .date {
-  background-color: #ccc;
+  background-color: rgb(75, 46, 180);
   margin-bottom: 15px;
 }
