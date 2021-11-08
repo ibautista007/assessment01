@@ -121,7 +121,7 @@ footer ul li a {
 }
 
 a.nav-link{
-
+    color: black;
     -webkit-transition: background-color 2s ease-out;
       -moz-transition: background-color 2s ease-out;
       -o-transition: background-color 2s ease-out;
@@ -522,7 +522,7 @@ hr .new1 {
 .tabs {
 	position: relative;
 	display: flex;
-	min-height: 380px;
+	min-height: 400px;
 	border-radius: 8px 8px 0 0;
 	overflow: hidden;
 }
@@ -558,7 +558,7 @@ hr .new1 {
 	
 	padding: 20px;
 	border-radius: 0 0 8px 8px;
-	background: #553285;
+	/*background: #553285;*/
 	
 	transition: 
 		opacity 0.8s ease,
@@ -614,7 +614,10 @@ input.forest[type=radio]:checked ~ label {
 }
 
 @media screen and (max-width: 480px) {
-	.tabs { min-height: 580px; }
+	.tabs { 
+    min-height: 580px; 
+    overflow: auto;
+  }
 	.tabby-tab label { 
 		height: 46px;
 	}
@@ -624,4 +627,11 @@ input.forest[type=radio]:checked ~ label {
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
+
+  .fixed-bottom{
+    position: relative !important;
+  }
+
+
+
 }
