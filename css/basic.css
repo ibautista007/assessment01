@@ -488,8 +488,7 @@ hr .new1 {
 
 
 /*Tab setting*/
-
-.container_tab > h1 { font-size: 32px; }
+.container_tab > h1 { font-size: 32px; text-align: center; margin-bottom: 10px;}
 .container_tab > h2 { font-size: 26px; }
 .container_tab > h3 { font-size: 18px; }
 .container_tab > p { margin: 0 0 15px; line-height: 24px; color: gainsboro; }
@@ -541,24 +540,19 @@ hr .new1 {
 
 .tabby-content {
 	position: absolute;
-	
 	left: 0; bottom: 0; right: 0;
 	/* clear the tab labels */
-		top: 40px; 
-	
+	top: 40px; 	
 	padding: 20px;
 	border-radius: 0 0 8px 8px;
 	/*background: #553285;*/
-	
 	transition: 
 		opacity 0.8s ease,
-		transform 0.8s ease		;
-	
+		transform 0.8s ease		;	
 	/* show/hide */
 		opacity: 0;
 		transform: scale(0.1);
 		transform-origin: top left;
-	
 }
 
 .tabby-content img {
@@ -567,9 +561,12 @@ hr .new1 {
 	border-radius: 8px;
 }
 
+.tabby-content ul {
+  margin-left: 19rem;
+}
+
 
 /* MAKE IT WORK ----- */
-
 .tabby-tab [type=radio] { display: none; }
 [type=radio]:checked ~ label {
 	background: #553285;
@@ -622,6 +619,9 @@ input.forest[type=radio]:checked ~ label {
     position: relative !important;
   }
 
+  .tabby-content ul {
+    margin-left: 0rem;
+  }
 
 
 }
