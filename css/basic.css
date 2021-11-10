@@ -5,8 +5,6 @@ html, body {
   margin: 0;
 }
 
-
-
 body.us  {
   background-image: url("/img/Slider_3.jpg");
   background-color: white;
@@ -24,8 +22,6 @@ color: #f1f1f1;
 padding: 20px;
 }
 
-
-
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -35,12 +31,11 @@ padding: 20px;
     user-select: none;
   }
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
-
-  }
+}
 
 body {
     min-height: 0rem;
@@ -52,7 +47,6 @@ body {
          min-height: 55rem;
         padding-top: 4.5rem; }
         
-
       .content {
           padding-top: 8.5rem
         }        
@@ -63,10 +57,9 @@ body {
   text-align: center !important; }
 }
 
-
-
 .content {
-          padding-top: 5rem;
+          padding-top: 4rem;
+          align-content: center;
           }
   
 footer{
@@ -74,14 +67,11 @@ footer{
     color: white;    
   }   
   
-
-
 footer ul li a {
     color: white;
-
  }
 
- small{
+small{
     color: black;    
  }
 
@@ -106,7 +96,7 @@ footer ul li a {
 }
 
 #logo{
-  width: 60%;
+  width: 50%;
   height: auto;
   display:block !important;
   margin:auto !important;;
@@ -175,8 +165,8 @@ a.nav-link:hover{
   top: 30%;
   height: auto;
   max-height: 120px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: #6c8e2f;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: white;
   font-weight: bold;
 }
 
@@ -184,7 +174,7 @@ a.nav-link:hover{
   top: 30%;
   height: auto;
   max-height: 120px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
   background-color: white;
   opacity: 0.7;  
   font-weight: bold;
@@ -195,9 +185,9 @@ a.nav-link:hover{
   top: 30%;
   height: auto;
   max-height: 120px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
   font-weight: bold;
-  color: #6c8e2f;
+  color: white;
   left: 45%;
 }
 
